@@ -10,6 +10,7 @@ async function fetchData() {
 fetchData();
 
 
+<script src="popup.js"></script>
 
 
 //  PERSISTENT Storage - Globally
