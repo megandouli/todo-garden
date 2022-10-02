@@ -52,5 +52,21 @@ $(function () {
         })
     });
 
+    function addListItem(value) {
+        console.log("addListItem");
+        document.getElementById("taskInput").value = "";
+        var ul = document.getElementById("todo-listUl");
+
+        addUI(ul, value, 1)
+    }
+
+    function addList2Item(value) {
+        console.log("addList2Item");
+        document.getElementById("learnItemInput").value = "";
+        var ul = document.getElementById("listUl");
+
+        addUI(ul, value, 2)
+    }
+
 
 })
