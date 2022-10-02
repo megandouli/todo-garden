@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Test Extension",
+    "version": "1.0",
+
+    "description": "testing a plant extension",
+    "icons": {
+        "16": "/images/leaf-16.png",
+        "48": "/images/leaf-48.png",
+        "128": "/images/leaf-128.png"
+    },
+    "permissions": [
+      "tabs", "storage"
+    ],
+    "chrome_url_overrides" : {
+      "newtab": "index.html"
+    }
+  }
